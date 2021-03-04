@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Jiajie Li</title>
+    <link>http://jiajie.media/</link>
+    <description>Recent content in About on Jiajie Li</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://jiajie.media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://jiajie.media/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jiajie.media/about/</guid>
+      <description>About Me  This is a Hugo based resume template. You can find the full source code on GitHub.
+Research Interest Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis1. Mauris id urna ante.
+Fusce pharetra diam ac nisi aliquet, velegestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit2. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://jiajie.media/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jiajie.media/contact/</guid>
+      <description>Email: JJ [at] hgeek [dot] net / jiajie_li [at] alumni [dot] tongji [dot] edu [dot] cn
+Social  Github LinkedIn   Mailing Address  Tongji University,
+School of Software Engineering No. 4800 Caoan Highway,
+Shanghai, China, 201804
+  </description>
+    </item>
+    
+  </channel>
+</rss>
