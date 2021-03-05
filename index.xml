@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Jiajie Li</title>
-    <link>http://jiajie.media/</link>
+    <link>https://jiajie.media/</link>
     <description>Recent content in About on Jiajie Li</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://jiajie.media/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://jiajie.media/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://jiajie.media/about/</link>
+      <link>https://jiajie.media/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jiajie.media/about/</guid>
+      <guid>https://jiajie.media/about/</guid>
       <description>About Me  My name is Jiajie Li (李嘉杰), and I also go by Chance. I am a junior undergrad at School of Software Engineering, Tongji University, where I am fortunate to be jointly advised by Shengjie Zhao and Hongming Zhu. I am also pleased to have worked with Yan Zhang and Can Wang during my undergraduate years.
 I am currently interning at Microsoft Research Asia (MSRA) as a Research SDE, I am also a member of the City Science Network, and I am part of the City Science Lab@Shanghai.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://jiajie.media/contact/</link>
+      <link>https://jiajie.media/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jiajie.media/contact/</guid>
+      <guid>https://jiajie.media/contact/</guid>
       <description>Email JJ [at] hgeek [dot] net / jiajie_li [at] alumni [dot] tongji [dot] edu [dot] cn
  Social  Github LinkedIn  </description>
     </item>
