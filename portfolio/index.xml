@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Jiajie Li</title>
-    <link>https://jiajie.media/</link>
-    <description>Recent content in About on Jiajie Li</description>
+    <title>Portfolios on Jiajie Li</title>
+    <link>https://jiajie.media/portfolio/</link>
+    <description>Recent content in Portfolios on Jiajie Li</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 08 Mar 2021 15:07:22 +0800</lastBuildDate><atom:link href="https://jiajie.media/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Mar 2021 15:07:22 +0800</lastBuildDate><atom:link href="https://jiajie.media/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identifying human interactions in built environment: deep learning analytics on camera data for urban vibrancy evaluation</title>
       <link>https://jiajie.media/portfolio/vibrancy/</link>
@@ -43,26 +43,6 @@ Abstract Crowd counting plays an increasingly important role in public security.
       <description>Equity WITHOUT Zoning   Link to the online version: http://ewz.media.mit.edu/
 Link to the docker repository: https://hub.docker.com/r/jajamoa/css2020
 Featured Video   Workshop Record    </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://jiajie.media/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jiajie.media/about/</guid>
-      <description>About Me  My name is Jiajie Li (李嘉杰), and I also go by Chance. I am a junior undergrad at School of Software Engineering, Tongji University, where I am fortunate to be jointly advised by Shengjie Zhao and Hongming Zhu. I am also pleased to have worked with Yan Zhang and Can Wang during my undergraduate years.
-I am currently interning at Microsoft Research Asia (MSRA) as a Research SDE, I am also a member of the City Science Network, and I am part of the City Science Lab@Shanghai.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://jiajie.media/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jiajie.media/contact/</guid>
-      <description>Email JJ [at] hgeek [dot] net / jiajie_li [at] alumni [dot] tongji [dot] edu [dot] cn
- Social  Github LinkedIn  </description>
     </item>
     
   </channel>
