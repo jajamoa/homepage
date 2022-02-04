@@ -8,11 +8,29 @@
     <lastBuildDate>Mon, 08 Mar 2021 15:07:22 +0800</lastBuildDate><atom:link href="https://jiajie.media/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identifying human interactions in built environment: deep learning analytics on camera data for urban vibrancy evaluation</title>
+      <link>https://jiajie.media/portfolio/cross/</link>
+      <pubDate>Mon, 08 Mar 2021 15:07:22 +0800</pubDate>
+      
+      <guid>https://jiajie.media/portfolio/cross/</guid>
+      <description>Cross-City Transfer Learning for Anti-epidemic Policies and Traffic Flow Prediction   Abstract In recent years, with the maturity of sensing technology and computing environment, various kinds of big data have been quietly born in cities, such as traffic flow, weather data, road networks, points of interest, mobile trajectories and social media. However, the imbalance of urban development level and the heterogeneity of urban data make it extremely challenging to generalize urban computing on a large scale, and most of the existing urban knowledge migration work focuses on one specific task, modeling and optimizing for specific datasets.</description>
+    </item>
+    
+    <item>
+      <title>Identifying human interactions in built environment: deep learning analytics on camera data for urban vibrancy evaluation</title>
       <link>https://jiajie.media/portfolio/vibrancy/</link>
       <pubDate>Mon, 08 Mar 2021 15:07:22 +0800</pubDate>
       
       <guid>https://jiajie.media/portfolio/vibrancy/</guid>
       <description>Identifying human interactions in built environment: deep learning analytics on camera data for urban vibrancy evaluation   Abstract Spatial revitalization has been widely regarded as the main goal for urban design. The increasing availability of multi-source data in recent years enables researchers to create better metrics to evaluate vibrancy. Despite the consensus that the count of people flow works as a significant indicator, it is incomplete for loosing information about activities in which people are involved.</description>
+    </item>
+    
+    <item>
+      <title>Identifying human interactions in built environment: deep learning analytics on camera data for urban vibrancy evaluation</title>
+      <link>https://jiajie.media/portfolio/wifi/</link>
+      <pubDate>Mon, 08 Mar 2021 15:07:22 +0800</pubDate>
+      
+      <guid>https://jiajie.media/portfolio/wifi/</guid>
+      <description>Understanding Detailed Spatial Temporal Activities and Urban Vibrancy via Wi-Fi Big Data: Case of LivingLine Shanghai as an Urban Prototype   Abstract Urban vibrancy is a topic of great concern in the field of urban design and planning. However, the definition and measurement of urban vibrancy have not been consistently and clearly followed. With the development of technologies such as big data and machine learning, urban researchers have been able to adopt some new methods that break the tradition to quantitatively evaluate urban vibrancy.</description>
     </item>
     
     <item>
