@@ -1,8 +1,7 @@
 /* Definitions */
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-VariableFont_slnt_wght.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;600;700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@300;500;700&display=swap'); */
 
 #root {
   height: 100%;
@@ -23,10 +22,36 @@ body {
   position: absolute;
   /* background: #000000; */
 
-  font-family: Inter, sans-serif!important;
+  font-family: Inter, sans-serif !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.not-select {
+  -moz-user-select: none; /*火孤*/
+  -webkit-user-select: none; /*webkit浏览器*/
+  -ms-user-select: none; /*IE10*/
+  -khtml-user-select: none; /*早期浏览器*/
+  user-select: none;
+}
+
+.no-touch {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: rgb(217, 180, 161);
+}
+
+::selection {
+  background: rgb(217, 180, 161);
 }

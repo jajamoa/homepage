@@ -1,0 +1,16 @@
+.avatar {
+  width: 100%;
+  aspect-ratio: 1;
+  height: auto;
+}
+
+.avatar_container {
+  min-width: 20%;
+  width: 20%;
+  margin-left: 3rem;
+}
+
+.about_container {
+  margin-top: 3rem;
+  width: 100%;
+}
