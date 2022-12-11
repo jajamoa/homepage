@@ -11,13 +11,14 @@ const AboutPage = () => {
 
       {/* ---------- Divider ---------- */}
       <div className={"page_content_container"}>
-        <div style={{ width: "100%" }} alt={""}>
+        <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
           <img
             className={"img_aspect"}
             src={`/assets/Livingline/wifi.gif`}
             alt={""}
           />
         </div>
+        <div className={"page_content_subtitle"}>Abstract</div>
         <div className={"page_content_content"}>
           Urban vibrancy is a topic of great concern in the field of urban
           design and planning. However, the definition and measurement of urban
@@ -40,6 +41,34 @@ const AboutPage = () => {
           The research proposes a novel, evidence-based, low-cost methodology
           for studying granular behavior patterns on a street level without
           compromising users’ data privacy.{" "}
+        </div>
+        <div style={{ width: "80%" }} className={"center img_margin"} alt={""}>
+          <img
+            className={"img_aspect"}
+            src={`/assets/Livingline/nice2035.png`}
+            alt={""}
+          />
+        </div>
+
+        <div className={"page_content_subtitle"}>Study Area</div>
+        <div className={"page_content_content"}>
+          The primary data used in this study were collected on NICE 2035
+          LivingLine Street, a renovated street of a residential neighborhood
+          located in Siping Road Residential District, Shanghai. We maintained a
+          publicly accessible wireless network consisting of 50 access points
+          (APs) distributed throughout LivingLine Street in Shanghai, in which
+          there are 26 outdoor APs covering the whole street to capture
+          population and mobility patterns, and 24 indoor APs covering labs and
+          public spaces of NICE 2035 for capturing human activities. From
+          October 1, 2018, to December 31, 2018, 10687173 observations and 32211
+          unique MACs were identified.
+        </div>
+        <div style={{ width: "90%" }} className={"center img_margin"} alt={""}>
+          <img
+            className={"img_aspect"}
+            src={`/assets/Livingline/study_area.png`}
+            alt={""}
+          />
         </div>
       </div>
     </div>

@@ -7,10 +7,10 @@
 .avatar_container {
   min-width: 20%;
   width: 20%;
-  margin-left: 3rem;
+  margin-left: 48px;
 }
 
 .about_container {
-  margin-top: 3rem;
+  margin-top: 48px;
   width: 100%;
 }
