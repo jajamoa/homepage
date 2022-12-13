@@ -3,30 +3,15 @@ import { useNavigate } from "react-router-dom";
 
 import { stateStore } from "../stores";
 import ContentRouter from "./Router/ContentRouter.js";
+import ContentMenu from "./Router/ContentMenu.js";
 
 import "../App.css";
 
-import GalleryView from "./pages/GalleryView.js";
-
-import CommunityDAO from "./pages/CommunityDAO.js";
-
-import Livingline from "./pages/Livingline.js";
-
-import AboutPage from "./pages/AboutPage.js";
-
 const DesktopVersion = () => {
   const { page, setPage } = stateStore;
+  const navigate = useNavigate();
 
-  const content = {
-    // 0: <AboutPage />,
-    1: <CommunityDAO />,
-    2: <CommunityDAO />,
-    5: <Livingline />,
-    17: <GalleryView />,
-    18: <AboutPage />,
-  };
-
-  console.log(page)
+//   console.log(page)
 
   const PageTitle = ({ text, id, isSection = false }) => {
     return (
@@ -36,7 +21,10 @@ const DesktopVersion = () => {
           " clickable not-select " +
           (id == page ? "active" : "")
         }
-        onClick={() => setPage(id)}
+        onClick={() => {
+            setPage(id);
+            navigate(ContentMenu[id]["path"]);
+        }}
       >
         {text}
       </div>
