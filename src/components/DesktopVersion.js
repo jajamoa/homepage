@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "../App.css";
+import { useNavigate } from "react-router-dom";
+
 import { stateStore } from "../stores";
+import ContentRouter from "./Router/ContentRouter.js";
+
+import "../App.css";
 
 import GalleryView from "./pages/GalleryView.js";
 
@@ -18,9 +22,11 @@ const DesktopVersion = () => {
     1: <CommunityDAO />,
     2: <CommunityDAO />,
     5: <Livingline />,
-    17: <AboutPage />,
+    17: <GalleryView />,
     18: <AboutPage />,
   };
+
+  console.log(page)
 
   const PageTitle = ({ text, id, isSection = false }) => {
     return (
@@ -96,12 +102,14 @@ const DesktopVersion = () => {
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
-            <PageTitle text={"Archived Projects"} id={17} />
+            <PageTitle text={"Projects"} id={17} />
             <PageTitle text={"About"} id={18} />
           </div>
         </div>
       </div>
-      <div className={"content"}>{content[page]}</div>
+      <div className={"content"}>
+        <ContentRouter />
+      </div>
     </div>
   );
 };

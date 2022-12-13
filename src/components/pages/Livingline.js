@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "../../App.css";
-import styles from "./AboutPage.module.css";
 
 import { stateStore } from "../../stores";
 

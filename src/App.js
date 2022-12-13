@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+
 import DesktopVersion from "./components/DesktopVersion.js";
 import MobiileVersion from "./components/MobiileVersion.js";
 
@@ -28,7 +30,11 @@ function App() {
     else setIsMobile("ontouchstart" in document.documentElement);
   }, [windowSize.width, windowSize.height]);
 
-  return isMobile ? <MobiileVersion /> : <DesktopVersion />;
+  return (
+    <BrowserRouter>
+      {isMobile ? <MobiileVersion /> : <DesktopVersion />}
+    </BrowserRouter>
+  );
 }
 
 export default App;

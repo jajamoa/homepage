@@ -17,6 +17,18 @@ const GalleryView = () => {
       <div className={"grid"}>
         <div className={"grid_content"}></div>
       </div>
+      <div className={"grid"}>
+        <div className={"grid_content"}></div>
+      </div>
+      <div className={"grid"}>
+        <div className={"grid_content"}></div>
+      </div>
+      <div className={"grid"}>
+        <div className={"grid_content"}></div>
+      </div>
+      <div className={"grid"}>
+        <div className={"grid_content"}></div>
+      </div>
     </div>
   );
 };

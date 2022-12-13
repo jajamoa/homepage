@@ -17,6 +17,8 @@
   display: flex;
   align-items: flex-end;
   -webkit-align-items: flex-end;
+
+  position: fixed;
 }
 
 .menu_content {
@@ -135,6 +137,7 @@ hr {
 .content {
   height: 100%;
   width: 80%;
+  margin-left: 20%;
 }
 
 .gallery {
@@ -155,7 +158,8 @@ hr {
   padding: 8px;
   padding-top: 40px;
   padding-left: 80px;
-  width: 90%;
+  /* width: 90%; */
+  width: 54%;
 }
 
 .grid {
