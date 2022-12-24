@@ -92,6 +92,7 @@
 
 .page_content_container {
   margin-top: 48px;
+  margin-bottom: 48px;
   width: 100%;
 }
 
@@ -158,7 +159,13 @@ hr {
   padding: 8px;
   padding-top: 40px;
   padding-left: 80px;
+  padding-right: 80px;
+  /* padding-bottom: 100px; */
   /* width: 90%; */
+  /* width: 54%; */
+}
+
+.desktop_width {
   width: 54%;
 }
 
@@ -205,4 +212,8 @@ b {
 .img_margin {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.copyright {
+  padding-bottom: 48px;
 }

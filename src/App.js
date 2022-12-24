@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 
+import { stateStore } from "./stores";
+
 import DesktopVersion from "./components/DesktopVersion.js";
 import MobileVersion from "./components/MobileVersion.js";
 
@@ -10,7 +12,8 @@ function App() {
     width: undefined,
     height: undefined,
   });
-  const [isMobile, setIsMobile] = useState(false);
+  //   const [isMobile, setIsMobile] = useState(false);
+  const { isMobile, setIsMobile } = stateStore;
 
   useEffect(() => {
     function handleResize() {

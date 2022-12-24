@@ -23,4 +23,8 @@ export const stateStore = resso({
     if (stateStore.page > stateStore.maxPage)
       stateStore.maxPage = stateStore.page;
   },
+  isMobile: false,
+  setIsMobile: (isMobile) => {
+    stateStore.isMobile = isMobile;
+  },
 });
