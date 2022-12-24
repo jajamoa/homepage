@@ -12,6 +12,7 @@ const ContentRouter = () => {
       {Object.keys(ContentMenu).map((k) => {
         return (
           <Route
+            key={k}
             path={ContentMenu[k]["path"]}
             element={ContentMenu[k]["element"]}
           />

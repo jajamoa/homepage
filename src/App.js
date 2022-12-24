@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 import DesktopVersion from "./components/DesktopVersion.js";
-import MobiileVersion from "./components/MobiileVersion.js";
+import MobileVersion from "./components/MobileVersion.js";
 
 function App() {
   // responsive design
@@ -36,7 +36,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {isMobile ? <MobiileVersion /> : <DesktopVersion />}
+      {isMobile ? <MobileVersion /> : <DesktopVersion />}
     </BrowserRouter>
   );
 }
