@@ -1,3 +1,7 @@
+:root {
+  --zoom-factor: 1;
+}
+
 /* Definitions */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;600;700&display=swap");
@@ -54,4 +58,69 @@ code {
 
 ::selection {
   background: rgb(217, 180, 161);
+}
+
+/* zoom out */
+@media screen and (max-height: 1500px) {
+  :root {
+    --zoom-factor: 0.8;
+  }
+}
+
+@media screen and (max-width: 2600px) {
+  :root {
+    --zoom-factor: 0.8;
+  }
+}
+
+@media screen and (max-height: 1300px) {
+  :root {
+    --zoom-factor: 0.7;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  :root {
+    --zoom-factor: 0.7;
+  }
+}
+
+@media screen and (max-height: 1200px) {
+  :root {
+    --zoom-factor: 0.6;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  :root {
+    --zoom-factor: 0.6;
+  }
+}
+
+@media screen and (max-height: 1000px) {
+  :root {
+    --zoom-factor: 0.5;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  :root {
+    --zoom-factor: 0.5;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  :root {
+    --zoom-factor: 0.4;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  :root {
+    --zoom-factor: 0.4;
+  }
+}
+
+html {
+  zoom: var(--zoom-factor);
 }

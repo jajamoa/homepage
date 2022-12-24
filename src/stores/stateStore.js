@@ -3,11 +3,11 @@ import ContentMenu from "../components/Router/ContentMenu.js";
 
 const getPage = () => {
   //   console.log(window.location.pathname);
-  Object.keys(ContentMenu).forEach((k) => {
-    console.log(window.location.pathname, ContentMenu[k]["path"]);
+  for (let k in ContentMenu) {
+    // console.log(window.location.pathname, ContentMenu[k]["path"]);
     if (window.location.pathname == ContentMenu[k]["path"]) return k;
-  });
-  return 18;
+  }
+  return 0;
 };
 
 export const stateStore = resso({
