@@ -14,13 +14,14 @@ function App() {
   });
   //   const [isMobile, setIsMobile] = useState(false);
   const { isMobile, setIsMobile } = stateStore;
+  
 
   useEffect(() => {
     function handleResize() {
-        console.log({
-          width: window.innerWidth,
-          height: window.innerHeight,
-        });
+      console.log({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
@@ -36,6 +37,7 @@ function App() {
     if (windowSize.width < 1100 || windowSize.height < 400) setIsMobile(true);
     else setIsMobile(false);
   }, [windowSize.width, windowSize.height]);
+
 
   return (
     <BrowserRouter>

@@ -20,15 +20,16 @@ export const stateStore = resso({
   prevPage: () => stateStore.page--,
   setPage: (pageIndex) => {
     stateStore.page = pageIndex;
-    if (stateStore.page > stateStore.maxPage)
-      stateStore.maxPage = stateStore.page;
+  },
+  updatePage: () => {
+    stateStore.page = getPage();
   },
   isMobile: false,
   setIsMobile: (isMobile) => {
     stateStore.isMobile = isMobile;
   },
-//   isMobileNavActive: false,
-//   setIsMobileNavActive: (isActive) => {
-//     stateStore.isMobileNavActive = isActive;
-//   },
+  //   isMobileNavActive: false,
+  //   setIsMobileNavActive: (isActive) => {
+  //     stateStore.isMobileNavActive = isActive;
+  //   },
 });

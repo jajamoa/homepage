@@ -1,12 +1,20 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 import { stateStore } from "../../stores";
 
 import ContentMenu from "./ContentMenu.js";
 
 const ContentRouter = () => {
+  const location = useLocation();
+  const { updatePage } = stateStore;
+
+  useEffect(() => {
+    // console.log(window.location.pathname);
+    updatePage();
+  }, [location]);
+
   return (
     <Routes>
       {Object.keys(ContentMenu).map((k) => {
