@@ -8,32 +8,57 @@ import ContentMenu from "./Router/ContentMenu.js";
 import "../App.css";
 
 const MobileVersion = () => {
-  const { page, setPage } = stateStore;
+  const { setPage } = stateStore;
   const navigate = useNavigate();
 
-//   console.log(page)
-
-  const PageTitle = ({ text, id, isSection = false }) => {
+  const Menu = () => {
+    const [isMobileNavActive, setIsMobileNavActive] = useState(false);
     return (
-      <div
-        className={
-          (isSection ? "sec_title" : "page_title") +
-          " clickable not-select " +
-          (id == page ? "active" : "")
-        }
-        onClick={() => {
-            setPage(id);
-            navigate(ContentMenu[id]["path"]);
-        }}
-      >
-        {text}
-      </div>
+      <>
+        <div
+          className={
+            "mobile_nav" + (isMobileNavActive ? " active" : " inactive")
+          }
+        >
+          <div
+            className="mobile_menu_link"
+            onClick={() => {
+              setIsMobileNavActive(!isMobileNavActive);
+              let id = 17;
+              setPage(id);
+              navigate(ContentMenu[id]["path"]);
+            }}
+          >
+            PROJECTS
+          </div>
+          <div
+            className="mobile_menu_link"
+            onClick={() => {
+              setIsMobileNavActive(!isMobileNavActive);
+              let id = 18;
+              setPage(id);
+              navigate(ContentMenu[id]["path"]);
+            }}
+          >
+            ABOUT
+          </div>
+        </div>
+        <div
+          className="mobile_menu_link"
+          onClick={() => {
+            setIsMobileNavActive(!isMobileNavActive);
+          }}
+        >
+          MENU
+        </div>
+      </>
     );
   };
 
   return (
-    <div className={"container"}>
-        <ContentRouter />
+    <div className={"container col"}>
+      <Menu />
+      <ContentRouter />
     </div>
   );
 };

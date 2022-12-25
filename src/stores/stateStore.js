@@ -27,4 +27,8 @@ export const stateStore = resso({
   setIsMobile: (isMobile) => {
     stateStore.isMobile = isMobile;
   },
+//   isMobileNavActive: false,
+//   setIsMobileNavActive: (isActive) => {
+//     stateStore.isMobileNavActive = isActive;
+//   },
 });

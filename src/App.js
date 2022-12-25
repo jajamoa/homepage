@@ -17,10 +17,10 @@ function App() {
 
   useEffect(() => {
     function handleResize() {
-      console.log({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
+      //   console.log({
+      //     width: window.innerWidth,
+      //     height: window.innerHeight,
+      //   });
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,

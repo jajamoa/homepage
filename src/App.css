@@ -217,3 +217,38 @@ b {
 .copyright {
   padding-bottom: 48px;
 }
+
+.mobile_menu_link {
+  text-align: center;
+  margin: 0 0 25px;
+
+  font-size: 28.8px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.mobile_nav {
+  min-height: 0px;
+  height: 0px;
+
+  text-align: center;
+  margin: 25px 10% 25px 10%;
+  border-bottom: 0px solid #ddd;
+  overflow: hidden;
+
+  transition: min-height 0.5s;
+  -webkit-transition: min-height 0.5s;
+  -moz-transition: min-height 0.5s;
+  -ms-transition: min-height 0.5s;
+  -o-transition: min-height 0.5s;
+}
+
+.mobile_nav.inactive {
+  border-bottom: 0px solid #ddd;
+  min-height: 0px;
+}
+
+.mobile_nav.active {
+  border-bottom: 1px solid #ddd;
+  min-height: 120px;
+}
