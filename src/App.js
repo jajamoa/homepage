@@ -17,10 +17,10 @@ function App() {
 
   useEffect(() => {
     function handleResize() {
-      //   console.log({
-      //     width: window.innerWidth,
-      //     height: window.innerHeight,
-      //   });
+        console.log({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        });
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
@@ -34,7 +34,7 @@ function App() {
 
   useEffect(() => {
     if (windowSize.width < 1100 || windowSize.height < 400) setIsMobile(true);
-    else setIsMobile("ontouchstart" in document.documentElement);
+    else setIsMobile(false);
   }, [windowSize.width, windowSize.height]);
 
   return (

@@ -177,6 +177,10 @@ hr {
   padding: 4px;
 }
 
+.grid.mobile {
+  width: 100%;
+}
+
 .grid_content {
   background-color: gray;
   width: 100%;
