@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
+import CopyrightSection from "./Copyright";
 
 import { stateStore } from "../stores";
 
-const CopyrightSection = () => {
-  return <div className={"copyright"}>© 2022 JIAJIE LI</div>;
-};
 const ContentTemplate = ({ title, content }) => {
   const { isMobile } = stateStore;
 

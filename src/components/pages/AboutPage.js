@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../../App.css";
 import styles from "./AboutPage.module.css";
 
+import CopyrightSection from "../Copyright";
+
 import { stateStore } from "../../stores";
 
 const AwardsSection = () => {
@@ -224,9 +226,8 @@ const EducationSection = () => {
   );
 };
 
-const CopyrightSection = () => {
-  return <div>© 2022 JIAJIE LI</div>;
-};
+
+
 const AboutPage = () => {
   return (
     <div className={"page_container"}>
