@@ -46,18 +46,18 @@ const DesktopVersion = () => {
           <div className={"section"}>
             <div className={"sec_title"}>Dynamic Urban Planning</div>
             <hr />
-            <PageTitle text={"Community DAO"} id={1} />
-            <PageTitle text={"SoCity DAO - Green Commute"} id={2} />
-            <PageTitle text={"Vertical Genetic City"} id={3} />
-            <PageTitle text={"Equity WITHOUT Zoning"} id={4} />
+            <PageTitle text={ContentMenu[1]["title"]} id={1} />
+            <PageTitle text={ContentMenu[2]["title"]} id={2} />
+            <PageTitle text={ContentMenu[3]["title"]} id={3} />
+            <PageTitle text={ContentMenu[4]["title"]} id={4} />
           </div>
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
             <div className={"sec_title"}>Urban Informatics</div>
             <hr />
-            <PageTitle text={"Livingline Shanghai"} id={5} />
-            <PageTitle text={"Spatial Equity NYC"} id={6} />
+            <PageTitle text={ContentMenu[5]["title"]} id={5} />
+            <PageTitle text={ContentMenu[6]["title"]} id={6} />
             <PageTitle text={"Drone Video Crowd Counting"} id={7} />
             <PageTitle text={"Neuromorphic Camera Encryption"} id={8} />
             <PageTitle text={"Urban Translator"} id={9} />

@@ -1,68 +1,76 @@
 import React, { useState, useEffect } from "react";
 import "../../App.css";
 import { stateStore } from "../../stores";
+import { useNavigate } from "react-router-dom";
 
+import ContentMenu from "../Router/ContentMenu";
 import CopyrightSection from "../Copyright";
 
-const MobileGallery = () => (
-  <div className={"gallery"}>
-    <div className={"grid mobile"}>
-      <div className={"grid_content"}></div>
-    </div>
-    <div className={"grid mobile"}>
-      <div className={"grid_content"}></div>
-    </div>
-    <div className={"grid mobile"}>
-      <div className={"grid_content"}></div>
-    </div>
-    <div className={"grid mobile"}>
-      <div className={"grid_content"}></div>
-    </div>
-    <div className={"grid mobile"}>
-      <div className={"grid_content"}></div>
-    </div>
-    <div className={"grid mobile"}>
-      <div className={"grid_content"}></div>
-    </div>
-    <div className={"grid mobile"}>
-      <div className={"grid_content"}></div>
-    </div>
-    <div className={"grid mobile"}>
-      <div className={"grid_content"}></div>
-    </div>
-    <CopyrightSection />
-  </div>
-);
+const MobileGallery = () => {
+  const { page, setPage } = stateStore;
+  const navigate = useNavigate();
 
-const Gallery = () => (
+  return (
     <div className={"gallery"}>
-      <div className={"grid"}>
-        <div className={"grid_content"}></div>
-      </div>
-      <div className={"grid"}>
-        <div className={"grid_content"}></div>
-      </div>
-      <div className={"grid"}>
-        <div className={"grid_content"}></div>
-      </div>
-      <div className={"grid"}>
-        <div className={"grid_content"}></div>
-      </div>
-      <div className={"grid"}>
-        <div className={"grid_content"}></div>
-      </div>
-      <div className={"grid"}>
-        <div className={"grid_content"}></div>
-      </div>
-      <div className={"grid"}>
-        <div className={"grid_content"}></div>
-      </div>
-      <div className={"grid"}>
-        <div className={"grid_content"}></div>
-      </div>
+      {Object.keys(ContentMenu).map((k) => {
+        if (ContentMenu[k]["displayInGallery"])
+          return (
+            <div
+              className={"grid mobile"}
+              onClick={() => {
+                setPage(k);
+                navigate(ContentMenu[k]["path"]);
+              }}
+            >
+              <div className={"grid_content"}>
+                <img
+                  className={"thumbnail"}
+                  src={ContentMenu[k]["thumbnail"]}
+                />
+                <div className={"thumbnail_title"}>
+                  {ContentMenu[k]["title"]}
+                </div>
+              </div>
+            </div>
+          );
+      })}
       <CopyrightSection />
     </div>
   );
+};
+
+const Gallery = () => {
+  const { page, setPage } = stateStore;
+  const navigate = useNavigate();
+
+  return (
+    <div className={"gallery"}>
+      {Object.keys(ContentMenu).map((k) => {
+        if (ContentMenu[k]["displayInGallery"])
+          return (
+            <div
+              className={"grid"}
+              onClick={() => {
+                setPage(k);
+                navigate(ContentMenu[k]["path"]);
+              }}
+            >
+              <div className={"grid_content"}>
+                <img
+                  className={"thumbnail"}
+                  src={ContentMenu[k]["thumbnail"]}
+                />
+                <div className={"thumbnail_title"}>
+                  {ContentMenu[k]["title"]}
+                </div>
+              </div>
+            </div>
+          );
+      })}
+      <CopyrightSection />
+    </div>
+  );
+};
 
 const GalleryView = () => {
   const { isMobile } = stateStore;
