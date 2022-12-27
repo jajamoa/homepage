@@ -94,7 +94,7 @@ const SkillsSection = () => {
         </li>
         <li>Spatial Analytics: ArcGIS, QGIS, Oracle Spatial Studio</li>
         <li>Data Extraction: Scrapy, Selenium, Axios, Fiddler, Flaui</li>
-        <li>Web3: Solana, Rust</li>
+        <li>Web3: Polygon(Solidity), Solana(Rust)</li>
         <li>
           Tools: PyTorch, TensorFlow, scikit-learn, MySQL, Redis, MongoDB, AWS,
           Azure, Linux, Docker, Git

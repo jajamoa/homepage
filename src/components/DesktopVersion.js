@@ -60,7 +60,7 @@ const DesktopVersion = () => {
             <PageTitle text={ContentMenu[6]["title"]} id={6} />
             <PageTitle text={"Drone Video Crowd Counting"} id={7} />
             <PageTitle text={"Neuromorphic Camera Encryption"} id={8} />
-            <PageTitle text={"Urban Translator"} id={9} />
+            {/* <PageTitle text={"Urban Translator"} id={9} /> */}
           </div>
 
           {/* ---------- Divider ---------- */}

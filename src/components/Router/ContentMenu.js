@@ -4,8 +4,11 @@ import GalleryView from "../pages/GalleryView.js";
 
 import CommunityDAO from "../pages/CommunityDAO.js";
 import GreenCommute from "../pages/GreenCommute.js"
+import VerticalCity from "../pages/VerticalCity"
+import EquityWithoutZoning from "../pages/EquityWithoutZoning.js"
 
 import Livingline from "../pages/Livingline.js";
+import SpatialEquity from "../pages/SpatialEquity.js"
 
 import AboutPage from "../pages/AboutPage.js";
 
@@ -33,14 +36,14 @@ const ContentMenu = {
   },
   3: {
     path: "/verticalcity",
-    element: <CommunityDAO />,
+    element: <VerticalCity />,
     title: "Vertical Genetic City",
     thumbnail: "/assets/verticalcity/1.png",
     displayInGallery: true,
   },
   4: {
     path: "/ewz",
-    element: <CommunityDAO />,
+    element: <EquityWithoutZoning />,
     title: "Equity WITHOUT Zoning",
     thumbnail: "/assets/ewz/1.png",
     displayInGallery: true,
@@ -55,7 +58,7 @@ const ContentMenu = {
   },
   6: {
     path: "/spatialequity",
-    element: <Livingline />,
+    element: <SpatialEquity />,
     title: "Spatial Equity NYC",
     thumbnail: "/assets/spatialequity/0.png",
     displayInGallery: true,
