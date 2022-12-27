@@ -3,6 +3,7 @@ import React from "react";
 import GalleryView from "../pages/GalleryView.js";
 
 import CommunityDAO from "../pages/CommunityDAO.js";
+import GreenCommute from "../pages/GreenCommute.js"
 
 import Livingline from "../pages/Livingline.js";
 
@@ -25,7 +26,7 @@ const ContentMenu = {
   },
   2: {
     path: "/greencommute",
-    element: <CommunityDAO />,
+    element: <GreenCommute />,
     title: "SoCity DAO - Green Commute",
     thumbnail: "/assets/greencommute/1.png",
     displayInGallery: true,
