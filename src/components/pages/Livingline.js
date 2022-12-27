@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../App.css";
+import ReactPlayer from "react-player";
 
 import ContentTemplate from "../ContentTemplate.js";
 
@@ -61,6 +62,24 @@ const Content = () => (
         src={`/assets/Livingline/study_area.png`}
         alt={""}
       />
+    </div>
+
+    <div className={"page_content_subtitle"}>Featured Video</div>
+    <div className="player-wrapper img_margin center">
+      <ReactPlayer
+        width="100%"
+        height="100%"
+        controls={true}
+        className={"react-player"}
+        url="https://www.youtube.com/watch?v=ovvTX8Dx-JQ"
+      />
+    </div>
+
+    <div className={"page_content_subtitle"}>Credits</div>
+    <div className={"page_content_content"}>
+      Team: Ryan Yan Zhang, Chengliang Li, Chance Jiajie Li, Zhiyuan Gao, Can Wang, Tianyu
+      Su, Hexin Zhang, Teng Ma, Yang Liu, Weiting Xiong, Ronan Doorley,
+      Yongqi Lou, Kent Larson
     </div>
   </>
 );
