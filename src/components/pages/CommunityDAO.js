@@ -108,6 +108,7 @@ const Content = () => (
         alt={""}
       />
     </div>
+
     <div className={"page_content_subtitle"}>Components</div>
     <div className={"page_content_content"}>
       The Community DAO has four components - incentive policy, voting,
@@ -188,6 +189,9 @@ const Content = () => (
       Simulation Research Team: Kejiang Qian, Chance Jiajie Li, Jue Ma, Ziyi
       Guo, Tongqing Zhu, Zhuxuanzi Wang, Yan Xiang <br />
       Direction: Ryan Yan Zhang, Leon Yang Liu, Yongqi Lou, Kent Larson <br />
+    </div>
+    <div>
+      <ReactPlayer url="https://youtu.be/zVa7JspCqfg" />
     </div>
   </>
 );
