@@ -3,8 +3,6 @@ import "../../App.css";
 
 import ContentTemplate from "../ContentTemplate.js";
 
-import { stateStore } from "../../stores";
-
 const Content = () => (
   <>
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
@@ -67,8 +65,8 @@ const Content = () => (
   </>
 );
 
-const AboutPage = () => {
+const Page = () => {
   return <ContentTemplate title="Livingline Shanghai" content={<Content />} />;
 };
 
-export default AboutPage;
+export default Page;
