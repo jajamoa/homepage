@@ -85,7 +85,7 @@ const Content = () => (
 );
 
 const Page = () => {
-  return <ContentTemplate title="Livingline Shanghai" content={<Content />} />;
+  return <ContentTemplate title="Livingline Shanghai - WiFi" content={<Content />} />;
 };
 
 export default Page;

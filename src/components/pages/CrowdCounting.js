@@ -9,13 +9,14 @@ const Content = () => (
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
       <img className={"img_aspect"} src={"/assets/crowd/2.png"} alt={""} />
     </div>
+    <div className={"page_content_subtitle"}>Publication</div>
     <div className={"page_content_content"}>
-      Publication Link:{" "}
       <a href="https://ieeexplore.ieee.org/document/9412792">
-        https://ieeexplore.ieee.org/document/9412792
+        PHNet: Parasite-Host Network for Video Crowd Counting, International
+        Conference on Pattern Recognition(ICPR) 2020
       </a>
       <br />
-      Github Link:{" "}
+      Github Repo:{" "}
       <a href="https://github.com/LeeJAJA/PHNet-pytorch">
         https://github.com/LeeJAJA/PHNet-pytorch
       </a>

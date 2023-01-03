@@ -13,10 +13,11 @@ const Content = () => (
         alt={""}
       />
     </div>
+    <div className={"page_content_subtitle"}>Website Link</div>
     <div className={"page_content_content"}>
-      Website Link:{" "}
       <a href="https://www.spatialequity.nyc/">
-        https://www.spatialequity.nyc/
+        Spatial Equity NYC - Spatial Equity NYC uses data to help you understand
+        & shape your city.
       </a>
     </div>
     <div className={"page_content_subtitle"}>Abstract</div>

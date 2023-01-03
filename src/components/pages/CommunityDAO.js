@@ -13,6 +13,16 @@ const Content = () => (
         alt={""}
       />
     </div>
+    <div className={"page_content_subtitle"}>Website Link</div>
+    <div className={"page_content_content"}>
+      Website Link:{" "}
+      <a href="https://CommunityDAO.city/">https://CommunityDAO.city/</a> <br />
+      Github Link:{" "}
+      <a href="https://github.com/CityScienceLab-Shanghai/csl2022-workshop">
+        https://github.com/CityScienceLab-Shanghai/csl2022-workshop
+      </a>
+      <br />
+    </div>
     <div className={"page_content_subtitle"}>Abstract</div>
     <div className={"page_content_content"}>
       In cities all around the world, the current urban development has problems
@@ -54,13 +64,6 @@ const Content = () => (
     </div>
     <div className={"page_content_subtitle"}>Web-based Interactive Sandbox</div>
     <div className={"page_content_content"}>
-      Website Link:{" "}
-      <a href="https://CommunityDAO.city/">https://CommunityDAO.city/</a> <br />
-      Github Link:{" "}
-      <a href="https://github.com/CityScienceLab-Shanghai/csl2022-workshop">
-        https://github.com/CityScienceLab-Shanghai/csl2022-workshop
-      </a>
-      <br />
       At city science summit 2022, we held a workshop titled{" "}
       <em>
         SoCity Community Process: A New Process for Pro-social Urban Development

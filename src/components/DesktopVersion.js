@@ -62,36 +62,36 @@ const DesktopVersion = () => {
           <div className={"section"}>
             <div className={"sec_title"}>Urban Informatics</div>
             <hr />
-            <PageTitle text={ContentMenu[5]["title"]} id={5} />
             <PageTitle text={ContentMenu[6]["title"]} id={6} />
-            <PageTitle text={"Drone Video Crowd Counting"} id={7} />
-            <PageTitle text={"Neuromorphic Camera Encryption"} id={8} />
-            {/* <PageTitle text={"Urban Translator"} id={9} /> */}
+            <PageTitle text={ContentMenu[5]["title"]} id={5} />
+            <PageTitle text={ContentMenu[7]["title"]} id={7} />
+            <PageTitle text={ContentMenu[8]["title"]} id={8} />
+            <PageTitle text={ContentMenu[9]["title"]} id={9} />
           </div>
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
             <div className={"sec_title"}>Urban Simulation</div>
             <hr />
-            <PageTitle text={"DAO Simulation"} id={10} />
-            <PageTitle text={"MPAV Simulation"} id={11} />
+            <PageTitle text={ContentMenu[10]["title"]} id={10} />
+            <PageTitle text={ContentMenu[11]["title"]} id={11} />
           </div>
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
             <div className={"sec_title"}>Human-Computer Interaction</div>
             <hr />
-            <PageTitle text={"Olika"} id={12} />
-            <PageTitle text={"Elder-Friendly Design Evaluation"} id={13} />
-            <PageTitle text={"Digital Sandtray Therapy"} id={14} />
+            <PageTitle text={ContentMenu[12]["title"]} id={12} />
+            <PageTitle text={ContentMenu[13]["title"]} id={13} />
+            <PageTitle text={ContentMenu[14]["title"]} id={14} />
           </div>
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
             <div className={"sec_title"}>Curation</div>
             <hr />
-            <PageTitle text={"Another"} id={15} />
-            <PageTitle text={"Return and Expedition"} id={16} />
+            <PageTitle text={ContentMenu[15]["title"]} id={15} />
+            <PageTitle text={ContentMenu[16]["title"]} id={16} />
           </div>
 
           {/* ---------- Divider ---------- */}
