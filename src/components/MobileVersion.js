@@ -58,7 +58,9 @@ const MobileVersion = () => {
   return (
     <div className={"container col"}>
       <Menu />
-      <ContentRouter />
+      <div className={"moblie_content"} id="scroller">
+        <ContentRouter />
+      </div>
     </div>
   );
 };

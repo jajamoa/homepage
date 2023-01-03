@@ -6,6 +6,8 @@ import { stateStore } from "./stores";
 import DesktopVersion from "./components/DesktopVersion.js";
 import MobileVersion from "./components/MobileVersion.js";
 
+import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   // responsive design
   const [windowSize, setWindowSize] = useState({
@@ -39,6 +41,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       {isMobile ? <MobileVersion /> : <DesktopVersion />}
     </BrowserRouter>
   );

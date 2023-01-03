@@ -162,6 +162,13 @@ hr {
   margin-bottom: 8px;
 }
 
+.moblie_content {
+  overflow: auto;
+  margin-right: 2px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 .gallery {
   display: flex;
   justify-content: flex-start;
