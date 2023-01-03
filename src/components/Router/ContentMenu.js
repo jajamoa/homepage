@@ -3,12 +3,13 @@ import React from "react";
 import GalleryView from "../pages/GalleryView.js";
 
 import CommunityDAO from "../pages/CommunityDAO.js";
-import GreenCommute from "../pages/GreenCommute.js"
-import VerticalCity from "../pages/VerticalCity"
-import EquityWithoutZoning from "../pages/EquityWithoutZoning.js"
+import GreenCommute from "../pages/GreenCommute.js";
+import VerticalCity from "../pages/VerticalCity";
+import EquityWithoutZoning from "../pages/EquityWithoutZoning.js";
 
 import Livingline from "../pages/Livingline.js";
-import SpatialEquity from "../pages/SpatialEquity.js"
+import SpatialEquity from "../pages/SpatialEquity.js";
+import CrowdCounting from "../pages/CrowdCounting.js";
 
 import AboutPage from "../pages/AboutPage.js";
 
@@ -61,6 +62,13 @@ const ContentMenu = {
     element: <SpatialEquity />,
     title: "Spatial Equity NYC",
     thumbnail: "/assets/spatialequity/0.png",
+    displayInGallery: true,
+  },
+  7: {
+    path: "/crowdcounting",
+    element: <CrowdCounting />,
+    title: "Drone Video Crowd Counting",
+    thumbnail: "/assets/crowd/1.png",
     displayInGallery: true,
   },
   17: {
