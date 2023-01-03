@@ -5,6 +5,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { stateStore } from "../../stores";
 
 import ContentMenu from "./ContentMenu.js";
+import AnimationLayout from "./AnimationLayout.js";
 
 const ContentRouter = () => {
   const location = useLocation();
@@ -17,17 +18,19 @@ const ContentRouter = () => {
 
   return (
     <Routes>
-      {Object.keys(ContentMenu).map((k) => {
-        return (
-          <Route
-            key={k}
-            path={ContentMenu[k]["path"]}
-            element={ContentMenu[k]["element"]}
-          />
-        );
-      })}
-      // Redirect all 404's to home
-      <Route path="*" element={<Navigate to="/" />} />
+      <Route element={<AnimationLayout />}>
+        {Object.keys(ContentMenu).map((k) => {
+          return (
+            <Route
+              key={k}
+              path={ContentMenu[k]["path"]}
+              element={ContentMenu[k]["element"]}
+            />
+          );
+        })}
+        // Redirect all 404's to home
+        <Route path="*" element={<Navigate to="/" />} />
+      </Route>
     </Routes>
   );
 };

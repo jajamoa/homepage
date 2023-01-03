@@ -16,6 +16,7 @@ const MobileGallery = () => {
         if (ContentMenu[k]["displayInGallery"])
           return (
             <div
+              key={k}
               className={"grid mobile"}
               onClick={() => {
                 setPage(k);
@@ -49,6 +50,7 @@ const Gallery = () => {
         if (ContentMenu[k]["displayInGallery"])
           return (
             <div
+              key={k}
               className={"grid"}
               onClick={() => {
                 setPage(k);

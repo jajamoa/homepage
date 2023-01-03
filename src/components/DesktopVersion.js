@@ -11,7 +11,7 @@ const DesktopVersion = () => {
   const { page, setPage } = stateStore;
   const navigate = useNavigate();
 
-//   console.log(page)
+  //   console.log(page)
 
   const PageTitle = ({ text, id, isSection = false }) => {
     return (
@@ -22,8 +22,8 @@ const DesktopVersion = () => {
           (id == page ? "active" : "")
         }
         onClick={() => {
-            setPage(id);
-            navigate(ContentMenu[id]["path"]);
+          setPage(id);
+          navigate(ContentMenu[id]["path"]);
         }}
       >
         {text}
@@ -35,7 +35,13 @@ const DesktopVersion = () => {
     <div className={"container"}>
       <div className={"menu"}>
         <div className={"menu_content"}>
-          <div className={"section"}>
+          <div
+            className={"section clickable_large"}
+            onClick={() => {
+              setPage(17);
+              navigate(ContentMenu[17]["path"]);
+            }}
+          >
             <div className={"title"}>Chance Jiajie Li's Gallery</div>
             <div className={"sub_title"}>
               RESEARCH, PROJECTS, COLLABORATIONS
