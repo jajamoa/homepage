@@ -27,6 +27,7 @@ body {
   /* background: #000000; */
 
   font-family: Inter, sans-serif !important;
+  overflow: hidden;
 }
 
 code {
@@ -58,6 +59,27 @@ code {
 
 ::selection {
   background: rgb(217, 180, 161);
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: black; */
+  background: white;
+  outline: 2px solid black;
+  /* border-radius: 7px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: rgb(127, 255, 0); */
+  background: black;
+  outline: 2px solid black;
 }
 
 /* zoom out */

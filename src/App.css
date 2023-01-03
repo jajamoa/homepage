@@ -139,7 +139,13 @@ hr {
   height: 100%;
   width: 80%;
   margin-left: 20%;
+
+  overflow: auto;
+  margin-right: 2px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
+
 
 .gallery {
   display: flex;
