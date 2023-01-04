@@ -84,15 +84,19 @@ code {
 
 /* Hyperlink */
 a {
-  color: rgb(82, 173, 200);
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
 }
 
 a:hover {
-  color: rgb(82, 173, 200);
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
 }
 
 a:visited {
-  color: rgb(82, 173, 200);
+  color: black;
 }
 
 /* zoom out */
