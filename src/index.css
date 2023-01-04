@@ -54,11 +54,15 @@ code {
 
 ::-moz-selection {
   /* Code for Firefox */
-  background: rgb(217, 180, 161);
+  /* background: rgb(217, 180, 161); */
+  background: #111;
+  color: #fff;
 }
 
 ::selection {
-  background: rgb(217, 180, 161);
+  /* background: rgb(217, 180, 161); */
+  background: #111;
+  color: #fff;
 }
 
 /* Scrollbar */
