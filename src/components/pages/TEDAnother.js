@@ -7,67 +7,47 @@ import ContentTemplate from "../ContentTemplate.js";
 const Content = () => (
   <>
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
-      <img className={"img_aspect"} src={"/assets/crowd/2.png"} alt={""} />
+      <img className={"img_aspect"} src={"/assets/ted2018/0.jpg"} alt={""} />
     </div>
-    <div className={"page_content_subtitle"}>Publication</div>
+    <div className={"page_content_subtitle"}>Event Information</div>
     <div className={"page_content_content"}>
-      <a href="https://ieeexplore.ieee.org/document/9412792">
-        PHNet: Parasite-Host Network for Video Crowd Counting, International
-        Conference on Pattern Recognition(ICPR) 2020
+      Event Page:{" "}
+      <a href="https://www.ted.com/tedx/events/30220">
+        https://www.ted.com/tedx/events/30220
       </a>
       <br />
-      Github Repo:{" "}
-      <a href="https://github.com/LeeJAJA/PHNet-pytorch">
-        https://github.com/LeeJAJA/PHNet-pytorch
-      </a>
     </div>
-    <div className={"page_content_subtitle"}>Abstract</div>
     <div className={"page_content_content"}>
-      Crowd counting plays an increasingly important role in public security.
-      Recently, many crowd counting methods for a single image have been
-      proposed but few studies have focused on using temporal information from
-      image sequences of videos to improve prediction performance. In the
-      existing methods using videos for crowd estimation, temporal features and
-      spatial features are modeled jointly for the prediction, which makes the
-      model less efficient in extracting spatiotemporal features and difficult
-      to improve the performance of predictions. In order to solve these
-      problems, this paper proposes a Parasite-Host Network (PHNet) which is
-      composed of Parasite branch and Host branch to extract temporal features
-      and spatial features respectively. To specifically extract the transform
-      features in the time domain, we propose a novel architecture termed as
-      “Relational Extractor”(RE) which models the multiplicative interaction
-      features of adjacent frames. In addition, the Host branch extracts the
-      spatial features from a current frame which can be replaced with any model
-      that uses a single image for the prediction. We conducted experiments by
-      using our PHNet on four video crowd counting benchmarks: Venice,UCSD,FDST
-      and CrowdFlow. Experimental results show that PHNet achieves superior
-      performance on these four datasets to the state-of-the-art methods.
-    </div>
-    <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
-      <img className={"img_aspect"} src={"/assets/crowd/4.png"} alt={""} />
-    </div>
-    <div className={"page_content_subtitle"}>Video Demo</div>
-    <div className="player-wrapper img_margin center">
-      <ReactPlayer
-        width="100%"
-        height="100%"
-        controls={true}
-        className={"react-player"}
-        url="https://youtu.be/Q856mXq0HUw"
-      />
+      Some swim against the current, searching for a true heart within.
+      <br />
+      Some walk alone, crying out for the truth and constantly running.
+      <br />
+      Some people slow down and march at their own pace.
+      <br />
+      <br />
+      Therefore, TEDxSipingRd 2018 Annual Conference
+      <br />
+      invites you to enjoy the thrill of cognitive subversion.
     </div>
 
     <div className={"page_content_subtitle"}>Credits</div>
+    <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
+      <img className={"img_aspect"} src={"/assets/ted2018/1.jpg"} alt={""} />
+    </div>
     <div className={"page_content_content"}>
-      Team: Shiqiao Meng, Jiajie Li, Weiwei Guo, Lai Ye, Jinfeng Jiang
+      TEDxSipingRoad 2018 Curation Team <br />
+      My Roles: Founder, Licensee, Curator, Speaker Coach
+      <br />
+      My TED Profile:{" "}
+      <a href="https://www.ted.com/profiles/9450811/about">
+        https://www.ted.com/profiles/9450811/about
+      </a>
     </div>
   </>
 );
 
 const Page = () => {
-  return (
-    <ContentTemplate title="Drone Video Crowd Counting" content={<Content />} />
-  );
+  return <ContentTemplate title="Another" content={<Content />} />;
 };
 
 export default Page;
