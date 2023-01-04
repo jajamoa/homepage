@@ -226,8 +226,6 @@ const EducationSection = () => {
   );
 };
 
-
-
 const AboutPage = () => {
   return (
     <div className={"page_container"}>
@@ -242,20 +240,36 @@ const AboutPage = () => {
             University, where I am fortunate to be jointly advised by Shengjie
             Zhao and Hongming Zhu. I am also pleased to have worked with Yan
             Zhang and Can Wang during my undergraduate years. My overarching
-            goal as a researcher is to enhance urban equity from a tech
-            perspective, and I am currently a visiting student at the City
-            Science (formerly Changing Places) group at the MIT Media Lab. I
-            have a wide range of interests, I am a national track and field
-            athlete and a licensed TEDx organizer.
+            goal as a researcher is to enhance urban equity from a media
+            technological perspective, and I am currently a{" "}
+            <a href="https://www.media.mit.edu/people/jiajie/overview/">
+              visiting student
+            </a>{" "}
+            at the City Science (formerly Changing Places) group at the MIT
+            Media Lab.
+            <br />I have a wide range of interests, I am a{" "}
+            <a href="https://ydydj.univsport.com/index.php?m=index&c=look&a=seach_look&number=&user_name=%E6%9D%8E%E5%98%89%E6%9D%B0&dengji=3&item=24.1&dict_value=&number2=&number3=">
+              national track and field athlete
+            </a>{" "}
+            and a{" "}
+            <a href="https://www.ted.com/profiles/9450811/about">
+              licensed TEDx organizer
+            </a>
+            .
           </div>
           <div className={"page_content_content"}>
-            {"Email: jiajie@mit.edu"}
+            Email: <a href="mailto:jiajie@mit.edu">jiajie@mit.edu</a>
+            <br />
+            Github: <a href="https://github.com/LeeJAJA">github.com/LeeJAJA</a>
+            <br />
+            LinkedIn:{" "}
+            <a href="https://linkedin.com/in/chanceli">
+              linkedin.com/in/chanceli
+            </a>
           </div>
           <div className={"page_content_content"}>
-            {"Github: github.com/LeeJAJA"}
-          </div>
-          <div className={"page_content_content"}>
-            {"LinkedIn: linkedin.com/in/chanceli"}
+            Please feel free to send me an email if you are interested in
+            collaborating or simply having a chat about science!
           </div>
         </div>
         <div className={styles.avatar_container} alt={""}>

@@ -82,6 +82,19 @@ code {
   outline: 2px solid black;
 }
 
+/* Hyperlink */
+a {
+  color: rgb(82, 173, 200);
+}
+
+a:hover {
+  color: rgb(82, 173, 200);
+}
+
+a:visited {
+  color: rgb(82, 173, 200);
+}
+
 /* zoom out */
 @media screen and (max-height: 1500px) {
   :root {
