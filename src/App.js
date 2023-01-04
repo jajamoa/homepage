@@ -25,6 +25,11 @@ function App() {
         trackingId: "G-1V1PD9D4BK",
       },
     ]);
+    ReactGA.event({
+      category: "PageView",
+      action: "Init View",
+      label: "View",
+    });
   }, []);
 
   useEffect(() => {
