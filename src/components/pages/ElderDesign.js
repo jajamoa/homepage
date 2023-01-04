@@ -18,7 +18,7 @@ const Content = () => (
       <br />
       Presentation Deck:{" "}
       <a href="https://drive.google.com/file/d/1OzrpLOj1u1xqZblHmTB31YDkoHO4U0iP/view?usp=share_link">
-        https://drive.google.com/file/d/1OzrpLOj1u1xqZblHmTB31YDkoHO4U0iP/view?usp=share_link
+        Google Drive
       </a>
     </div>
     <div className={"page_content_subtitle"}>Abstract</div>

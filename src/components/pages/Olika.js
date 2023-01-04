@@ -13,7 +13,7 @@ const Content = () => (
     <div className={"page_content_content"}>
       Link:{" "}
       <a href="https://drive.google.com/file/d/1X1TvwKmsrGvqv6JYQPfrl2AIJ2iYzSFE/view?usp=sharing">
-        https://drive.google.com/file/d/1X1TvwKmsrGvqv6JYQPfrl2AIJ2iYzSFE/view?usp=sharing
+        Google Drive
       </a>
     </div>
     <div className={"page_content_subtitle"}>Introduction and Demo</div>

@@ -27,6 +27,10 @@ const Content = () => (
       Quantitative data provided by the system was deemed useful by the
       therapists.
     </div>
+    <div style={{ width: "70%", marginBottom: "40px" }} alt={""}>
+      <img className={"img_aspect"} src={"/assets/sand/2.png"} alt={""} />
+    </div>
+
     <div className={"page_content_subtitle"}>Demo Video</div>
     <div className="player-wrapper img_margin center">
       <ReactPlayer
@@ -36,11 +40,6 @@ const Content = () => (
         className={"react-player"}
         url="https://youtu.be/mLPfWUi93D4"
       />
-    </div>
-
-    <div className={"page_content_subtitle"}>Data Flow</div>
-    <div style={{ width: "70%", marginBottom: "40px" }} alt={""}>
-      <img className={"img_aspect"} src={"/assets/sand/2.png"} alt={""} />
     </div>
 
     <div className={"page_content_subtitle"}>Credits</div>
