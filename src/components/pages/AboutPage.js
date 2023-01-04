@@ -11,9 +11,12 @@ const AwardsSection = () => {
     <div className={"col"}>
       <div className={"page_content_subtitle"}>Awards</div>
       <ul className={"page_content_content"}>
+      <li>
+          2023 Norman Foster Foundation Workshop Scholarship
+        </li>
         <li>
           2022 Honorable Mention at 2022 MIT Sloan PM Club Hackathon Presented
-          by Google: Ranked Top 5 of all MIT teams.
+          by Google: Ranked Top 5 of all MIT teams
         </li>
         <li>2022 Shanghai Outstanding Graduate</li>
         <li>2022 Excellent Student Pioneer(Top 1/220)</li>
