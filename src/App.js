@@ -7,6 +7,7 @@ import DesktopVersion from "./components/DesktopVersion.js";
 import MobileVersion from "./components/MobileVersion.js";
 
 import ScrollToTop from "./components/ScrollToTop";
+import ReactGA from "react-ga4";
 
 function App() {
   // responsive design
@@ -16,6 +17,15 @@ function App() {
   });
   //   const [isMobile, setIsMobile] = useState(false);
   const { isMobile, setIsMobile } = stateStore;
+
+  // GA4 hooks
+  useEffect(() => {
+    ReactGA.initialize([
+      {
+        trackingId: "G-1V1PD9D4BK",
+      },
+    ]);
+  }, []);
 
   useEffect(() => {
     function handleResize() {
