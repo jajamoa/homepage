@@ -52,6 +52,33 @@ const Content = () => (
       />
     </div>
 
+    <div className={"page_content_subtitle"}>Related Articles & News</div>
+    <div className={"page_content_content"}>
+      ArchDaily:{" "}
+      <a href="https://www.archdaily.com/990884/a-new-digital-tool-allows-users-to-investigate-spatial-equity-across-new-york-citys-communities?ad_medium=gallery#">
+        A New Digital Tool Allows Users to Investigate Spatial Equity across New
+        York City’s Communities
+      </a>
+      <br />
+      Mapbox:{" "}
+      <a href="https://twitter.com/Mapbox/status/1584562866371321864?s=20&t=l002ibAZrs0MkBlUEBAYtQ">
+        These maps allows users to use Census data to demonstrate the
+        consequences of inequity
+      </a>
+      <br />
+      Patch News:{" "}
+      <a href="https://patch.com/new-york/astoria-long-island-city/astorians-suffer-poor-park-access-few-trees-new-maps-show">
+        Astorians Suffer Poor Park Access, Few Trees, New Maps Show
+      </a>
+      <br />
+      Transportation Alternatives:{" "}
+      <a href="https://www.transalt.org/press-releases/new-analysis-from-transportation-alternatives-and-mit-details-how-inequities-in-public-space-contribute-to-racial-and-economic-disparities-across-new-york-city-neighborhoodsnbsp">
+        New Analysis From Transportation Alternatives and MIT Details How
+        Inequities in Public Space Contribute to Racial and Economic Disparities
+        Across New York City Neighborhoods
+      </a>
+    </div>
+
     <div className={"page_content_subtitle"}>Credits</div>
     <div className={"page_content_content"}>
       Team: Sarah Williams, Niko McGlashan, Daniela Coray, Jariyaporn
