@@ -7,6 +7,8 @@ import { stateStore } from "../../stores";
 import ContentMenu from "./ContentMenu.js";
 import AnimationLayout from "./AnimationLayout.js";
 
+import ReactGA from "react-ga4";
+
 const ContentRouter = () => {
   const location = useLocation();
   const { updatePage } = stateStore;
@@ -14,6 +16,13 @@ const ContentRouter = () => {
   useEffect(() => {
     // console.log(window.location.pathname);
     updatePage();
+
+    // GA4 hooks
+    ReactGA.event({
+      category: "PageView",
+      action: "pathname",
+      label: window.location.pathname,
+    });
   }, [location]);
 
   return (
