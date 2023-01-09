@@ -218,7 +218,7 @@ const EducationSection = () => {
       <div className={"page_content_subtitle"}>Education</div>
       <ul className={"page_content_content"}>
         <li>
-          B.Eng, Software Engineering, <b>Tongji University</b>, Shanghai, China
+          B.Eng, Software Engineering, Concentration in Media Arts & Sciences, <b>Tongji University</b>, Shanghai, China
         </li>
         <li>
           Vising Student, Progrom in Media Arts & Sciences,{" "}

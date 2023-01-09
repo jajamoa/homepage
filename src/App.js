@@ -32,6 +32,8 @@ function App() {
     });
   }, []);
 
+
+  // Reponsiveness
   useEffect(() => {
     function handleResize() {
       console.log({
