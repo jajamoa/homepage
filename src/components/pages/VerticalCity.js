@@ -38,8 +38,7 @@ const Content = () => (
       />
     </div>
 
-    <div className={"page_content_subtitle"}>DApp Architecture</div>
-    <div className={"page_content_content"}>Smart Contact Repo Link:</div>
+    <div className={"page_content_subtitle"}>Features and Prototyping</div>
     <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
       <img
         className={"img_aspect"}
