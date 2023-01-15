@@ -10,18 +10,21 @@ const Content = () => (
       <img className={"img_aspect"} src={"/assets/ewz/1.png"} alt={""} />
     </div>
     <div className={"page_content_content"}>
-      {/* Website Link:{" "}
-      <a href="http://socitydao.media.mit.edu:1239/">
-        http://socitydao.media.mit.edu:1239/
-      </a>
-      <br /> */}
+      Website Link:{" "}
+      <a href="http://socitydao.media.mit.edu:1239/">Equity WITHOUT Zoning</a>
+      <br />
+      Workshop Record:{" "}
+      <a href="https://www.youtube.com/watch?v=CrqOULPjfEw">YouTube</a>
+      <br />
       Docker Hub Link:{" "}
       <a href="https://hub.docker.com/r/jajamoa/css2020">
         https://hub.docker.com/r/jajamoa/css2020
       </a>
       <br />
-      Workshop Record:{" "}
-      <a href="https://www.youtube.com/watch?v=CrqOULPjfEw">YouTube</a>
+      Github Link:{" "}
+      <a href="https://github.com/CityScienceLab-Shanghai/csl2020-workshop">
+        https://github.com/CityScienceLab-Shanghai/csl2020-workshop
+      </a>
     </div>
     <div className={"page_content_subtitle"}>Abstract</div>
     <div className={"page_content_content"}>
