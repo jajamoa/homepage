@@ -11,9 +11,7 @@ const AwardsSection = () => {
     <div className={"col"}>
       <div className={"page_content_subtitle"}>Awards</div>
       <ul className={"page_content_content"}>
-      <li>
-          2023 Norman Foster Foundation Workshop Scholarship
-        </li>
+        <li>2023 Norman Foster Foundation Workshop Scholarship</li>
         <li>
           2022 Honorable Mention at 2022 MIT Sloan PM Club Hackathon Presented
           by Google: Ranked Top 5 of all MIT teams
@@ -71,7 +69,8 @@ const DomainSection = () => {
           Urban: Dynamic Urban Planning; Urban Informatics; Urban Simulation
         </li>
         <li>
-          Web3: Governance Model; Decentralized Autonomous Organization(DAO)
+          Web3: On-chain Governance; Decentralized Autonomous Organization(DAO);
+          Decentralized App(DApp)
         </li>
         <li>
           Computer Science: Agent-based Simulation; Deep Learning; Privacy;
@@ -88,20 +87,32 @@ const SkillsSection = () => {
       <div className={"page_content_subtitle"}>Technical Skills</div>
       <ul className={"page_content_content"}>
         <li>
-          Data Analysis and Visualization: Julia, Python, C++, MATLAB, SQL, D3
+          Data Analysis and Visualization: Julia, Python, C++, MATLAB, SQL,
+          D3.js, Deck.gl, Mapbox,
         </li>
-        <li>Web Development: React, Vue, HTML, CSS, JavaScript, D3, ASP.NET</li>
+        <li>
+          Full-stack Web Development: React, Vue, HTML, CSS, JavaScript,
+          Three.js, ASP.NET, Flask, Node.js
+        </li>
+        <li>
+          Web3 and Blockchain: Polygon(Solidity), Solana(Rust), Hardhat, Remix
+        </li>
         <li>
           Design and Modeling: Maya, Unity3D, AutoCAD, Figma, Adobe XD, Adobe
           PS, Axure
         </li>
-        <li>Spatial Analytics: ArcGIS, QGIS, Oracle Spatial Studio</li>
-        <li>Data Extraction: Scrapy, Selenium, Axios, Fiddler, Flaui</li>
-        <li>Web3: Polygon(Solidity), Solana(Rust)</li>
         <li>
-          Tools: PyTorch, TensorFlow, scikit-learn, MySQL, Redis, MongoDB, AWS,
-          Azure, Linux, Docker, Git
+          Spatial Analytics: ArcGIS, QGIS, Oracle Spatial Studio, GeoPandas,
+          OSRM
         </li>
+        <li>
+          Machine Learning: PyTorch, TensorFlow(TF 1.x, TF 2, TF.js),
+          scikit-learn
+        </li>
+        <li>Simulation Modeling: GAMA Platform, SUMO, Vensim</li>
+        <li>Data Extraction: Scrapy, Selenium, Axios, Fiddler, Flaui</li>
+        <li>Database: MySQL, PostgreSQL, InfluxDB, Neo4j, Redis, MongoDB</li>
+        <li>Tools: Git, Docker, MQTT, Grafana, Postman, AWS, Azure, Linux</li>
       </ul>
     </div>
   );
@@ -112,10 +123,13 @@ const ExperienceSection = () => {
     <div className={"col"}>
       <div className={"page_content_subtitle"}>Research Experience</div>
       <ul className={"page_content_content"}>
-        <li>MIT Civic Data Design Lab, July 2022 - Present</li>
         <li>
           City Science Lab@Shanghai(Tongji-MIT City Science Lab), Apr 2019 -
           Present
+        </li>
+        <li>
+          MIT Norman B. Leventhal Center for Advanced Urbanism, July 2022 - Dec
+          2022
         </li>
         <li>MIT Media Lab, City Science Group, Jan 2022 - July 2022</li>
         <li>
@@ -147,6 +161,7 @@ const EmploymentSection = () => {
     <div className={"col"}>
       <div className={"page_content_subtitle"}>Practical Experience</div>
       <ul className={"page_content_content"}>
+        <li>L3Cities, Jan 2023 - Present</li>
         <li>Butlr, May 2021 - Nov 2021</li>
         <li>Microsoft Research Asia (MSRA), Nov 2020 - May 2021</li>
         <li>Pixelshift.AI, Nov 2019 - May 2020</li>
@@ -218,7 +233,8 @@ const EducationSection = () => {
       <div className={"page_content_subtitle"}>Education</div>
       <ul className={"page_content_content"}>
         <li>
-          B.Eng, Software Engineering, Concentration in Media Arts & Sciences, <b>Tongji University</b>, Shanghai, China
+          B.Eng, Software Engineering, Concentration in Media Arts & Sciences,{" "}
+          <b>Tongji University</b>, Shanghai, China
         </li>
         <li>
           Vising Student, Progrom in Media Arts & Sciences,{" "}
