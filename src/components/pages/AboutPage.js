@@ -237,7 +237,7 @@ const EducationSection = () => {
           <b>Tongji University</b>, Shanghai, China
         </li>
         <li>
-          Vising Student, Progrom in Media Arts & Sciences,{" "}
+          Visiting Student, Program in Media Arts & Sciences,{" "}
           <b>Massachusetts Institute of Technology(MIT)</b>, Cambridge, MA
         </li>
       </ul>
@@ -255,7 +255,7 @@ const AboutPage = () => {
         <div className={"col"}>
           <div className={"page_content_content"}>
             My name is Jiajie Li (zh:李嘉杰), and I also go by Chance. I am a
-            senior undergrad at School of Software Engineering, Tongji
+            senior undergrad at the School of Software Engineering, Tongji
             University, where I am fortunate to be jointly advised by Shengjie
             Zhao and Hongming Zhu. I am also pleased to have worked with Yan
             Zhang and Can Wang during my undergraduate years. My overarching
