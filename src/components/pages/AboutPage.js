@@ -233,12 +233,16 @@ const EducationSection = () => {
       <div className={"page_content_subtitle"}>Education</div>
       <ul className={"page_content_content"}>
         <li>
-          B.Eng, Software Engineering, Concentration in Media Arts & Sciences,{" "}
-          <b>Tongji University</b>, Shanghai, China
+          2023-2025(expected), M.S., Media Technology,{" "}
+          <b>Massachusetts Institute of Technology(MIT)</b>, Cambridge, MA
         </li>
         <li>
-          Visiting Student, Program in Media Arts & Sciences,{" "}
+          2022-2023, Visiting Student, Media Arts & Sciences,{" "}
           <b>Massachusetts Institute of Technology(MIT)</b>, Cambridge, MA
+        </li>
+        <li>
+          2017-2022, B.Eng, Software Engineering, Concentration in Media Arts &
+          Sciences, <b>Tongji University</b>, Shanghai, China
         </li>
       </ul>
     </div>
@@ -260,9 +264,9 @@ const AboutPage = () => {
             Zhao and Hongming Zhu. I am also pleased to have worked with Yan
             Zhang and Can Wang during my undergraduate years. My overarching
             goal as a researcher is to enhance urban equity from a media
-            technological perspective, and I am currently a{" "}
+            technological perspective, and I am currently an{" "}
             <a href="https://www.media.mit.edu/people/jiajie/overview/">
-              visiting student
+              incoming graduate student
             </a>{" "}
             at the City Science (formerly Changing Places) group at the MIT
             Media Lab.
