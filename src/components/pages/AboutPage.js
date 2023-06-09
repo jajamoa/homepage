@@ -258,19 +258,17 @@ const AboutPage = () => {
       <div className={"row " + styles.about_container}>
         <div className={"col"}>
           <div className={"page_content_content"}>
-            My name is Jiajie Li (zh:李嘉杰), and I also go by Chance. I am a
-            senior undergrad at the School of Software Engineering, Tongji
-            University, where I am fortunate to be jointly advised by Shengjie
-            Zhao and Hongming Zhu. I am also pleased to have worked with Yan
-            Zhang and Can Wang during my undergraduate years. My overarching
-            goal as a researcher is to enhance urban equity from a media
-            technological perspective, and I am currently an{" "}
+            My name is Jiajie Li (zh:李嘉杰), and I also go by Chance. I am
+            currently an{" "}
             <a href="https://www.media.mit.edu/people/jiajie/overview/">
-              incoming graduate student
+              graduate student
             </a>{" "}
             at the City Science (formerly Changing Places) group at the MIT
-            Media Lab.
-            <br />I have a wide range of interests, I am a{" "}
+            Media Lab. As a developer and researcher, my overarching goal is to
+            enhance urban systems from a media technological perspective. Before
+            joining MIT, I received a B.Eng. degree in software engineering
+            from Tongji University, Shanghai, China.
+            <br />Some fun facts: I was a{" "}
             <a href="https://ydydj.univsport.com/index.php?m=index&c=look&a=seach_look&number=&user_name=%E6%9D%8E%E5%98%89%E6%9D%B0&dengji=3&item=24.1&dict_value=&number2=&number3=">
               national track and field athlete
             </a>{" "}
